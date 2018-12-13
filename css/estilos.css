@@ -1,0 +1,21 @@
+
+.iconos{
+  width: 10%;
+}
+.encabezado{
+  height: 100px;
+}
+.menuiconos{
+  position: absolute;
+  bottom: 0px;
+  padding-right: 15px;
+}
+.encabezadoenlaces{
+  width: 100%;
+}
+.enlaces{
+  color: black !important;
+}
+.menuenlace{
+  width: 16.66666666666667%;
+}
