@@ -1,18 +1,18 @@
 
-.iconos{
-  width: 8%;
-}
 .encabezado{
-  height: 100px;
-}
-.encabezado2{
+  min-height: 100px;
   background-color: #7277F3;
   border-radius: 15px 15px 0px 0px !important;
 }
+.encabezado2{
+  height: 100%;
+}
+.iconos{
+  width: 13%;
+}
 .menuiconos{
-  position: absolute;
-  bottom: 0px;
-  padding-right: 15px;
+  height: 100%;
+  padding-top: 13%;
 }
 .encabezadoenlaces{
   width: 100%;

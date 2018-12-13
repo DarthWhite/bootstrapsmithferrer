@@ -10,14 +10,14 @@
   <body>
     <div class="container">
 
-      <div class="row encabezado2">
-        <div class="col-md encabezado">
+      <div class="row encabezado">
+        <div class="col-md-4 col-sm-12 encabezado2">
           <div>
             <img src="img/logosf.png" alt="logosf" height="100px" style="padding: 15px;"/>
           </div>
         </div>
-        <div class="col-md col-md-offset encabezado">
-          <div class="text-right menuiconos">
+        <div class="col-md-4 offset-md-4 col-sm-12 encabezado2">
+          <div class="text-center text-md-right menuiconos">
             <a href="#"><img src="img/logofc.png" alt="Facebook" class="iconos"/></a>
             <a href="#"><img src="img/logotw.png" alt="Twitter" class="iconos"/></a>
             <a href="#"><img src="img/logoyt.png" alt="Youtube" class="iconos"/></a>
@@ -27,8 +27,8 @@
         </div>
       </div>
       <div class="row menuiconosprin">
-        <div class="col-md">
-          <nav class="nav nav-pills nav-fill">
+        <div class="col-md col-sm-12">
+          <nav class="nav nav-pills nav-fill flex-sm-row flex-column">
             <a class="nav-item nav-link active" href="#">Inicio</a>
             <a class="nav-item nav-link" href="#">Artistas</a>
             <a class="nav-item nav-link" href="#">Grupos</a>
@@ -70,9 +70,19 @@
             </div>
           </div>
           <div class="col-md-3 d-none d-sm-none d-md-block contenido">
+            <form class="form-inline">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text glyphicon glyphicon-search"><i class="fas fa-search"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </form>
             <form role="form">
               <div class="form-group form-control">
-                <span class="glyphicon glyphicon-search"></span>
+                <div>
+                  <span class="glyphicon glyphicon-search"></span>
+                </div>
                 <input type="search" placeholder="Buscar por...">
               </div>
               <div class="list-group">
