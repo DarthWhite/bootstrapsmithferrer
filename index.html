@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width:device-width,user-scalable=no">
+    <meta name="viewport" content="width:device-width initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Frameworks y Librerias CSS Bootstrap Smith Ferrer</title>
@@ -10,14 +11,14 @@
   <body>
     <div class="container">
 
-      <div class="row encabezado2">
-        <div class="col-md encabezado">
+      <div class="row encabezado">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 encabezado2">
           <div>
             <img src="img/logosf.png" alt="logosf" height="100px" style="padding: 15px;"/>
           </div>
         </div>
-        <div class="col-md col-md-offset encabezado">
-          <div class="text-right menuiconos">
+        <div class="col-xs-12 col-sm-12 col-md-4 offset-md-4 encabezado2">
+          <div class="text-center text-md-right menuiconos">
             <a href="#"><img src="img/logofc.png" alt="Facebook" class="iconos"/></a>
             <a href="#"><img src="img/logotw.png" alt="Twitter" class="iconos"/></a>
             <a href="#"><img src="img/logoyt.png" alt="Youtube" class="iconos"/></a>
@@ -27,53 +28,59 @@
         </div>
       </div>
       <div class="row menuiconosprin">
-        <div class="col-md">
-          <nav class="nav nav-pills nav-fill">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <nav class="nav nav-pills nav-fill flex-sm-row flex-column">
             <a class="nav-item nav-link active" href="#">Inicio</a>
-            <a class="nav-item nav-link" href="#">Artistas</a>
-            <a class="nav-item nav-link" href="#">Grupos</a>
-            <a class="nav-item nav-link" href="#">Top 10</a>
-            <a class="nav-item nav-link" href="#">Letras</a>
-            <a class="nav-item nav-link" href="#">Acordes</a>
+            <a class="nav-item nav-link" href="pag/artistas.html">Artistas</a>
+            <a class="nav-item nav-link" href="pag/grupos.html">Grupos</a>
+            <a class="nav-item nav-link" href="pag/top10.html">Top 10</a>
+            <a class="nav-item nav-link" href="pag/letras.html">Letras</a>
+            <a class="nav-item nav-link" href="pag/acordes.html">Acordes</a>
           </nav>
         </div>
       </div>
       <div class="row contenidoprin">
-          <div class="col-md-9 col-sm-12 contenido">
+          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
             <div class="row">
-              <div class="col-md-8">
-                <h1>Principal</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="col-md-8 col-xs-12">
+                <h2>¿Cómo se crea un éxito discográfico?</h2>
+                <p>LA INDUSTRIA de la música es vertiginosa, voluble y ultracompetitiva. Los gustos del público cambian, los éxitos pasan de moda y aparecen nuevas preferencias y tecnologías que desplazan a las anteriores. Los promotores “andan siempre a la caza de una nueva canción que pegue”, dice Kelli S. Burns, experta en medios sociales. Sin embargo, llevar esa canción al número uno de las listas no es fácil. Como afirma una guía especializada, “muchos jóvenes sueñan con llegar a ser estrellas musicales, [...] pero el camino entre el sueño y el contrato de grabación suele ser largo y difícil”.</p>
+                <p>La aparición de Internet y de programas y equipos informáticos a un precio bajo ha revolucionado la industria fonográfica. Hoy, los músicos pueden hacer grabaciones con calidad profesional en su propia casa y difundirlas a una audiencia mundial. Según un informe de la revista The Economist, “varios artistas de renombre evitaron usar los sellos discográficos”.</p>
               </div>
-              <div class="col-md-4">
-                <img src="img/logofc.png" width="100px"/>
-              </div>
-            </div>
-            <div class="row">
-              <label for="comentario">
-                <img src="img/avatar.png" id="comentario" alt="avatar" width="100px"/></label>
-              <textarea placeholder="Comentario.." style="width:75%; margin:1%;"></textarea>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <img src="img/logofc.png" width="100"/>
-              </div>
-              <div class="col-md-8">
-                <h1>Principal</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 prueba">
+                <img src="img/post1.jpg" class="post1y2"/>
               </div>
             </div>
             <div class="row">
               <label for="comentario">
-                <img src="img/avatar.png" id="comentario" alt="avatar" width="100px"/></label>
-              <textarea placeholder="Comentario.." style="width:75%; margin:1%;"></textarea>
+                <img src="img/avatar.png" id="comentario" alt="avatar" class="imgcom"/></label>
+              <textarea placeholder="Comentario.." style="width:70%; margin:1%;"></textarea>
             </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <img src="img/post2.jpg" class="post1y2"/>
+              </div>
+              <div class="col-md-8 col-xs-12">
+                <h2>El merengue, la salsa y el tex-mex</h2>
+                <p>El merengue y la salsa se han hecho muy populares en muchos países. Estos ritmos no son nuevos. El merengue se originó en la República Dominicana y en Haití. De él se ha dicho que es “increíblemente rápido, reiterativo, pegadizo y delicioso”. Su nombre hace referencia al dulce que se prepara batiendo enérgicamente azúcar y claras de huevo. Al observar los vigorosos movimientos con que bailan algunos merengueros, cualquiera puede comprender que el nombre resulta muy apropiado.</p>
+                <p>El género musical de la salsa reúne una variedad de ritmos, en su mayoría de origen cubano y puertorriqueño. Hay quienes afirman que la salsa debe su nombre a una fusión musical que tuvo lugar en Nueva York, donde se dio cita una amalgama de artistas de todo el Caribe. Desde allí se esparció por el mundo entero.</p>
+                <p>El asesinato en 1995 de Selena, una cantante hispana de Estados Unidos, elevó sus canciones a un rango de popularidad aún mayor que cuando estaba viva. Se la conocía como la reina del tex-mex, que se ha definido como una combinación de música country norteamericana y de ritmos norteños (del norte de México) con letras en inglés, en español o en spanglish, que es una mezcla de español e inglés. Este tipo de música ha alcanzado mucha popularidad entre los latinos de Estados Unidos y en Latinoamérica.</p>
+              </div>
+            </div>
+            <div class="row">
+              <label for="comentario">
+                <img src="img/avatar.png" id="comentario" alt="avatar" class="imgcom"/></label>
+              <textarea placeholder="Comentario.." style="width:70%; margin:1%;"></textarea>
+            </div>
+
           </div>
-          <div class="col-md-3 d-none d-sm-none d-md-block contenido">
+          <div class="col-md-3 d-none d-sm-none d-md-block">
             <form role="form">
-              <div class="form-group form-control">
-                <span class="glyphicon glyphicon-search"></span>
-                <input type="search" placeholder="Buscar por...">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><img src="img/search.svg" alt="search" height="20px" style="padding: 2px;"/></span>
+                </div>
+                <input type="search" class="form-control" placeholder="Buscar...">
               </div>
               <div class="list-group">
                 <a href="#" class="list-group-item">Cras justo odio</a>
