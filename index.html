@@ -11,12 +11,12 @@
     <div class="container">
 
       <div class="row encabezado2">
-        <div class="col-md-4 encabezado">
+        <div class="col-md encabezado">
           <div>
             <img src="img/logosf.png" alt="logosf" height="100px" style="padding: 15px;"/>
           </div>
         </div>
-        <div class="col-md-4 col-md-offset-4 encabezado">
+        <div class="col-md col-md-offset encabezado">
           <div class="text-right menuiconos">
             <a href="#"><img src="img/logofc.png" alt="Facebook" class="iconos"/></a>
             <a href="#"><img src="img/logotw.png" alt="Twitter" class="iconos"/></a>
@@ -26,39 +26,33 @@
           </div>
         </div>
       </div>
-
       <div class="row menuiconosprin">
-        <div class="col-md-12">
-          <div class="btn-group nav-justified" role="group" aria-label="Basic example">
-            <ul class="nav nav-pills nav-justified">
-              <li class="enlace active"><a href="#">Inicio</a></li>
-              <li class="enlace"><a href="#">Artistas</a></li>
-              <li class="enlace"><a href="#">Grupos</a></li>
-              <li class="enlace"><a href="#">Top 10</a></li>
-              <li class="enlace"><a href="#">Letras</a></li>
-              <li class="enlace"><a href="#">Acordes</a></li>
-            </ul>
-          </div>
+        <div class="col-md">
+          <nav class="nav nav-pills nav-fill">
+            <a class="nav-item nav-link active" href="#">Inicio</a>
+            <a class="nav-item nav-link" href="#">Artistas</a>
+            <a class="nav-item nav-link" href="#">Grupos</a>
+            <a class="nav-item nav-link" href="#">Top 10</a>
+            <a class="nav-item nav-link" href="#">Letras</a>
+            <a class="nav-item nav-link" href="#">Acordes</a>
+          </nav>
         </div>
       </div>
-      <div class="row separador">
-      </div>
       <div class="row contenidoprin">
-          <div class="col-md-9 contenido">
+          <div class="col-md-9 col-sm-12 contenido">
             <div class="row">
               <div class="col-md-8">
                 <h1>Principal</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
               <div class="col-md-4">
-                <img src="img/logofc.png" width="100"/>
+                <img src="img/logofc.png" width="100px"/>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-2">
-                <img src="img/avatar.jpg" alt="avatar" width="100%"/>
-              </div>
-              <div class="col-md-10"><textarea placeholder="Comentario.." class="form-control"></textarea></div>
+              <label for="comentario">
+                <img src="img/avatar.png" id="comentario" alt="avatar" width="100px"/></label>
+              <textarea placeholder="Comentario.." style="width:75%; margin:1%;"></textarea>
             </div>
             <div class="row">
               <div class="col-md-4">
@@ -70,13 +64,12 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-2">
-                <img src="img/avatar.jpg" alt="avatar" width="100%"/>
-              </div>
-              <div class="col-md-10"><textarea placeholder="Comentario.." class="form-control"></textarea></div>
+              <label for="comentario">
+                <img src="img/avatar.png" id="comentario" alt="avatar" width="100px"/></label>
+              <textarea placeholder="Comentario.." style="width:75%; margin:1%;"></textarea>
             </div>
           </div>
-          <div class="col-md-3 contenido">
+          <div class="col-md-3 d-none d-sm-none d-md-block contenido">
             <form role="form">
               <div class="form-group form-control">
                 <span class="glyphicon glyphicon-search"></span>
