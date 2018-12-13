@@ -1,6 +1,6 @@
 
 .iconos{
-  width: 10%;
+  width: 8%;
 }
 .encabezado{
   height: 100px;
@@ -8,9 +8,6 @@
 .encabezado2{
   background-color: #7277F3;
   border-radius: 15px 15px 0px 0px !important;
-}
-.separador{
-  height: 10px;
 }
 .menuiconos{
   position: absolute;
